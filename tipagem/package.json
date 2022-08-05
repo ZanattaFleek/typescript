@@ -1,0 +1,12 @@
+{
+  "name": "tipagem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "executar": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/index.ts\" --delay 2.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
