@@ -8,6 +8,9 @@ aluno.setSobrenome(' - Divinópolis')
 // console.log('Fleek Nome:', fleek.nome, 'Fleek Endereco: ', fleek.endereco)
 // console.log('Aluno Nome:', aluno.nome, 'Aluno Endereco: ', aluno.endereco)
 
-console.log('Nome Completo do Aluno: ', aluno.getNomeCompleto())
-console.log('Nome Completo da Fleek: ', fleek.getNomeCompleto())
+// console.log('Nome Completo do Aluno: ', aluno.getNomeCompleto())
+// console.log('Nome Completo da Fleek: ', fleek.getNomeCompleto())
 
+fleek.CPF = '000000121515251'
+
+console.log(fleek.CPF)
