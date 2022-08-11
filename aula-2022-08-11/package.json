@@ -1,5 +1,5 @@
 {
-  "name": "promises",
+  "name": "POO",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.6.5"
+  "dependencies": {
+    "luxon": "^3.0.1"
   }
 }
