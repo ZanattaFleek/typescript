@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises'
+import readline from 'node:readline'
 
 export default class ClsLeituraArquivo {
 
@@ -17,6 +18,12 @@ export default class ClsLeituraArquivo {
             return Promise.reject('Erro Motivo: '.concat(err.message))
         })
 
+    }
+
+    public lerLinha(): Promise<string> {
+        readline.createInterface({
+            input: fs.createReadStream()
+        })
     }
 
 
